@@ -1,0 +1,11 @@
+# Core dependencies
+crewai
+langchain
+langchain-openai
+langchain-groq
+# LLM providers
+openai
+groq
+# Utility libraries
+python-dotenv
+pyyaml
