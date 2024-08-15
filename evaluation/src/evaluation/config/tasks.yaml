@@ -1,0 +1,31 @@
+evaluation_task:
+  description: >
+    Procéder à l'évaluation du stage d'un étudiant en posant les questions suivantes et en notant les réponses :
+    1. Demander le nom et prénom de l'étudiant
+    2. Demander les informations sur l'organisme d'accueil (nom, adresse, téléphone)
+    3. Demander les détails du tuteur de stage (nom, prénom, fonction, téléphone, email)
+    4. Demander un rappel des tâches effectuées par le stagiaire
+    5. Évaluer l'adéquation des acquis théoriques et pratiques par rapport au stage
+    6. Demander les compétences mobilisées
+    7. Identifier les points forts de la formation
+    8. Noter les insuffisances relevées
+    9. Évaluer les capacités d'intégration et les qualités de travail (noter chaque critère : Excellent, Très bien, Bien, Passable, Insuffisant)
+    10. Attribuer une note sur 20 pour le stage
+    11. Demander d'autres appréciations éventuelles
+    12. Demander la date de l'évaluation
+    13. Demander les besoins futurs en stagiaires
+  expected_output: Un ensemble complet de réponses à toutes les questions d'évaluation
+  max_iteration: 1
+
+reporting_task:
+  description: >
+    Rédiger un rapport détaillé en format Markdown basé sur l'évaluation du stage fournie par l'évaluateur. Le rapport doit :
+    1. Utiliser une structure Markdown appropriée avec des titres, sous-titres, listes, et tableaux
+    2. Inclure toutes les informations fournies par l'évaluateur
+    3. Présenter les évaluations sous forme de tableaux Markdown lorsque c'est pertinent
+    4. Utiliser des listes à puces ou numérotées pour les énumérations
+    5. Mettre en évidence les points clés avec une mise en forme appropriée (gras, italique)
+    6. Conclure avec une appréciation générale du stage
+    7. Assurer une présentation claire et lisible du rapport en Markdown
+  expected_output: Un rapport d'évaluation de stage complet et bien structuré en format Markdown
+  max_iteration: 1
